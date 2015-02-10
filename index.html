@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title>Launching WiFi Corner Sepaku</title>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style>
+	html, body
+{
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    min-height: 100%;
+	width:100%
+   
+}
+.container a{
+	height: 100%; 
+	text-align: center;
+	min-width: 100%;
+	font-size: 1000%;
+}
+p{
+text-align: center;
+margin-top:20%;
+}
+.container a:active{
+background-color:#FF3B3E;
+font:#00000;
+}
+</style>
+</head>
+
+<body>
+
+<audio id="sound1" src="sound.mp3"></audio>
+
+<div class=container>
+<a onclick="document.getElementById('sound1').play()" class="btn btn-danger" ><p>Launch</p></a>
+</div>
+<video src="sound.mp3" onclick="this.play();"></video>
+
+</body>
+</html>
